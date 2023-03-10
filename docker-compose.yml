@@ -9,8 +9,8 @@ services:
     depends_on:
       - mysql
     environment:
-      DB_HOST: mysql
-      DB_PORT: 3306
+      DB_HOST: containers-us-west-203.railway.app
+      DB_PORT: 7802
       DB_DATABASE: singlelink
       DB_USER: root
       DB_PASS: single-my-links
